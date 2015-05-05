@@ -1,0 +1,160 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+html
+{
+	height:100%;
+}
+body
+{
+	margin: 0px;
+	padding: 0px;
+	height:100%;
+    overflow:hidden;
+    text-align:center;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+div#canvas-frame {
+	border: none;
+	cursor: pointer;
+	background-color: #444444;
+    margin: 0px;
+    width:100%;
+    height:100%;
+}
+div#StatueTitle {
+    
+    position:absolute;
+    width:100%;
+    height:5%;
+    top:0px;
+    background:#303030;
+    filter:alpha(opacity:30);
+    opacity:0.9; 
+    text-align:center;
+    border:double;
+    border-color:#007acc;
+}
+
+div#Tool1 {
+    position:absolute;
+    width:25%;
+    height:75%;
+    top:15%;
+    background:#151515;
+    filter:alpha(opacity:30);
+    opacity:0.95; 
+    border:ridge;
+    border-color:#007acc;
+    left:0px;
+    -webkit-border-radius:15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+input#toolButton {
+    position:absolute;
+    width:40%;
+    height:14%;
+    left:30%;
+    border:double;
+    filter:alpha(opacity:30);
+    opacity:1; 
+    border-color:#007acc;
+    background:#000000;
+    color:#ffffff;
+    -webkit-border-radius:20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+div#win {
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:0%;
+    bottom:-5px;
+    background:#151515;
+    filter:alpha(opacity:30);
+    opacity:0.85; 
+}
+div#close {
+    width:30px;
+    height:30px;
+    position:absolute;
+    right:20px;
+    top:10px;
+    cursor:pointer;
+    border:outset;
+    border-color:#007acc;
+    -webkit-border-radius:30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    font-family:'Microsoft YaHei';
+    font-size:22px;
+    font-weight:bolder;
+    background:#2081bf;
+    color:#ffffff;
+}
+div#childOfWin {
+    background:#ffffff;
+    left:10%;
+    right:10%;
+    top:10%;
+    bottom:10%;
+    position:absolute;
+    font-size:40px;
+    font-weight:900;
+    border:outset;
+    color:#ffffff;
+    border-color:#007acc;
+    background:#000000;
+    -webkit-border-radius:10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+div#wait {
+    position:absolute;
+    left:0px;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    filter:alpha(opacity:30);
+    opacity:0.85; 
+    background:#808080;
+    
+}
+img#waitPicture {
+    margin:80px auto;
+    -webkit-border-radius:10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+input#button {
+    height:14%;
+    background:#000000;
+    color:#ffffff;
+    border:double;
+    border-color:#007acc;
+    position:absolute;
+    -webkit-border-radius:20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    font-size:medium;
+}
+div#direction {
+    position:absolute;
+    right:20px;
+    bottom:20px;
+    width:200px;
+    height:200px;
+    filter:alpha(opacity:30);
+    opacity:0.85; 
+    background:#333333;
+    -webkit-border-radius:100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
